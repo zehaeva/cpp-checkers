@@ -33,6 +33,9 @@ public:
 	void set(int x, int y, int player) {
 		board[x][y] = player;
 	}
+	void move(int x, int y, int i, int j) {
+		
+	}
 	void print() {
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size; j++) {
