@@ -34,7 +34,7 @@ public:
 		board[x][y] = player;
 	}
 	void move(int x, int y, int i, int j) {
-		
+	// comment	
 	}
 	void print() {
 		for (int i = 0; i < size; i++) {
